@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+}
+
+@media (max-width: 575px) {
+  .header-container {
+    padding: 15px;
+  }
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+}
+
+.title {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+}
+
+.link-item {
+  list-style-type: none;
+}
+
+.route-link {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+@media (min-width: 578px) {
+  .title {
+    font-size: 25px;
+  }
+  .route-link {
+    font-size: 25px;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+}

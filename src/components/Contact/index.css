@@ -1,0 +1,34 @@
+/* Write your CSS code here */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  background-color: transparent;
+}
+
+.heading {
+  color: aliceblue;
+  align-self: center;
+}
+.icons {
+  height: 30px;
+  width: 30px;
+  color: blue;
+  margin: 20px;
+}
+.con {
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+@media (min-width: 768px) {
+  .icons {
+    height: 60px;
+    width: 70px;
+  }
+}

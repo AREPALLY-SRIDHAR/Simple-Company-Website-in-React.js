@@ -1,0 +1,67 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  width: 90%;
+  padding: 15px;
+  background-color: aliceblue;
+  margin: 1%;
+  border-radius: 10px;
+}
+p {
+  align-self: center;
+}
+h1 {
+  align-self: flex-start;
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+  .home-container {
+    flex-direction: row;
+  }
+  .card {
+    width: 45%;
+    padding: 25px;
+  }
+}
+.paraing {
+  color: aliceblue;
+  margin: 1%;
+}
+
+.aa {
+  color: blue;
+  font-weight: bolder;
+  margin: 5px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.learn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+  font-size: 10px;
+  font-weight: 100;
+  color: white;
+}
+@media (min-width: 768px) {
+  .learn {
+    font-size: 15px;
+  }
+  .aa {
+    font-size: 22px;
+  }
+}
